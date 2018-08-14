@@ -1,7 +1,11 @@
 {
-    "server": "https://acme-v01.api.letsencrypt.org/directory", 
-    "email": "kevin@example.org", 
-    "agreeTos": true, 
-    "debug": true,   
-    "approveDomains": [ "example.org" ]
+    "config": {
+        "server": "https://acme-staging-v01.api.letsencrypt.org/directory", 
+        "email": "kevin@example.org", 
+        "agreeTos": true, 
+        "debug": true,   
+        "approveDomains": [ "example.org", "www.example.org" ],
+        "httpPort": 6080,
+        "httpsPort": 6443        
+    }
 }

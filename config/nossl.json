@@ -1,0 +1,5 @@
+{
+    "config" : {
+        "httpPort": 6080
+    }
+}

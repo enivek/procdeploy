@@ -4,7 +4,8 @@
   "description": "Deploys applications to a server",
   "main": "index.js",
   "scripts": {
-    "ssl": "node lib/index.ssl.js",
+    "prod": "node lib/index.ssl.js -- --env=prod",
+    "staging": "node lib/index.ssl.js -- --env=staging",
     "nossl": "node lib/index.nossl.js"
   },
   "author": "Kevin Ewig",
