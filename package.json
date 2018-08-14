@@ -1,0 +1,34 @@
+{
+  "name": "procdeploy",
+  "version": "1.0.0",
+  "description": "Deploys applications to a server",
+  "main": "index.js",
+  "scripts": {
+    "ssl": "node src\\index.ssl.js",
+    "nossl": "node src\\index.nossl.js"
+  },
+  "author": "Kevin Ewig",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "nconf": "^0.10.0",
+    "greenlock-express": "^2.3.2",
+    "le-acme-core": "^2.1.3"
+  },
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-tslint": "8.1.2",
+    "gulp-typescript": "3.2.3",
+    "gulp-uglify": "^3.0.0",
+    "mocha": "^2.3.3",
+    "mocha-typescript": "^1.0.14",
+    "path": "^0.12.7",
+    "run-sequence": "2.2.0",
+    "tslint": "5.8.0",
+    "typescript": "2.6.2"
+  }
+}
