@@ -1,6 +1,7 @@
 {
     "config" : {
-        "server": "https://acme-v01.api.letsencrypt.org/directory", 
+        "server": "https://acme-v02.api.letsencrypt.org/directory", 
+        "version": "draft-12",
         "email": "kevin@example.org", 
         "agreeTos": true, 
         "debug": false,   
