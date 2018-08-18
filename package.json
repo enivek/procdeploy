@@ -11,9 +11,8 @@
   "author": "Kevin Ewig",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.2",
+    "@google-cloud/storage": "^1.7.0",
     "nconf": "^0.10.0",
-    "greenlock-express": "^2.3.2",
-    "le-acme-core": "^2.1.3"
+    "@google-cloud": "*"
   }
 }
