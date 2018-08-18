@@ -3,15 +3,11 @@
   "version": "1.0.0",
   "description": "Deploys applications to a server",
   "main": "index.js",
-  "scripts": {
-    "prod": "node lib/index.ssl.js -- --env=prod",
-    "staging": "node lib/index.ssl.js -- --env=staging",
-    "nossl": "node lib/index.nossl.js"
-  },
   "author": "Kevin Ewig",
   "license": "MIT",
   "dependencies": {
     "@google-cloud/storage": "^1.7.0",
-    "nconf": "^0.10.0"
+    "nconf": "^0.10.0",
+    "targz": "^1.0.1"
   }
 }
