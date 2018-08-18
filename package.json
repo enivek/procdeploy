@@ -12,7 +12,6 @@
   "license": "MIT",
   "dependencies": {
     "@google-cloud/storage": "^1.7.0",
-    "nconf": "^0.10.0",
-    "@google-cloud": "*"
+    "nconf": "^0.10.0"
   }
 }
