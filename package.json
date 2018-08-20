@@ -5,9 +5,13 @@
   "main": "index.js",
   "author": "Kevin Ewig",
   "license": "MIT",
+  "scripts": {
+    "start": "node lib/index.js"
+  },
   "dependencies": {
     "@google-cloud/storage": "^1.7.0",
     "nconf": "^0.10.0",
+    "shelljs": "^0.8.2",
     "targz": "^1.0.1"
   }
 }
